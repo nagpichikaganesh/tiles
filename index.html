@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiles</title>
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="fancy.css">
+<script src="script.js" defer></script>
+
+<body>
+
+    <!-- Header/Title -->
+    <div class="container">
+        <h1>tiles</h1>
+    </div>
+
+    <!-- 1st-tile/To grind -->
+    <div class="columns-container">
+        <div class="columns">
+            <div class="column-title">
+                <h3 data-tasks="0">To grind</h3>
+                <button data-add><i class="bi bi-plus"></i></button>
+            </div>
+            <div class="task-name"></div> <!--dynamically populated-->
+        </div>
+    </div>
+
+    <!-- 2nd-tile/Cooking -->
+    <div class="columns">
+        <div class="column-title">
+            <h3 data-tasks="0">Cooking</h3>
+            <button data-add><i class="bi bi-plus"></i></button>
+        </div>
+        <div class="task-name"></div>
+    </div>
+
+    <!-- 3rd-tile/Debug -->
+    <div class="columns">
+        <div class="column-title">
+            <h3 data-tasks="0">Debugging</h3>
+            <button data-add><i class="bi bi-plus"></i></button>
+        </div>
+        <div class="task-name"></div>
+    </div>
+
+    <!-- 4th-tile/Commit -->
+    <div class="columns">
+        <div class="column-title">
+            <h3 data-tasks="0">Committed</h3>
+            <button data-add><i class="bi bi-plus"></i></button>
+        </div>
+        <div class="task-name"></div>
+    </div>
+    
+</body>
+</html>
